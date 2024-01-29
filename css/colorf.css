@@ -1,0 +1,50 @@
+/* Nav Bar */
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 15vh;
+    background-color: ghostwhite;
+}
+
+
+/* Main */
+main{
+    height: 100vh;
+    width: 100vw;
+}
+h2{
+    padding: 5vw;
+    margin: 3rem 5rem 5rem 3rem;
+    color: ghostwhite;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: blue;
+}
+#btn{
+    font-size: 1.5vw;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    color: ghostwhite;
+}
+#btn:hover{
+    color: lightblue;
+}
